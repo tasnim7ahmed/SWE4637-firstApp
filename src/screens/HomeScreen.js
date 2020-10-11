@@ -39,6 +39,13 @@ const HomeScreen = (props) => {
           props.navigation.navigate("Box");
         }}
       />
+      <Button
+        title="Input Screen"
+        color="green"
+        onPress={function () {
+          props.navigation.navigate("Input");
+        }}
+      />
     </View>
   );
 };
